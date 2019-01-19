@@ -1,0 +1,15 @@
+﻿@model  APIConsumerWeb.Models.Product
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>Are you sure you want to delete this?</h3>
+<div class="container m-auto p-4" >
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ProductId" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        
+        <a class="btn btn-primary" asp-action="Index" >Back to list</a>
+    </form>
+</div>

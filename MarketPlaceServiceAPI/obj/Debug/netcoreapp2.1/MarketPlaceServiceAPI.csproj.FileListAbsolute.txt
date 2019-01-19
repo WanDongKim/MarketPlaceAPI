@@ -1,0 +1,14 @@
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\bin\Debug\netcoreapp2.1\MarketPlaceServiceAPI.deps.json
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\bin\Debug\netcoreapp2.1\MarketPlaceServiceAPI.runtimeconfig.json
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\bin\Debug\netcoreapp2.1\MarketPlaceServiceAPI.runtimeconfig.dev.json
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\bin\Debug\netcoreapp2.1\MarketPlaceServiceAPI.dll
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\obj\Debug\netcoreapp2.1\MarketPlaceServiceAPI.csprojAssemblyReference.cache
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\obj\Debug\netcoreapp2.1\MarketPlaceServiceAPI.csproj.CoreCompileInputs.cache
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\obj\Debug\netcoreapp2.1\MarketPlaceServiceAPI.RazorAssemblyInfo.cache
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\obj\Debug\netcoreapp2.1\MarketPlaceServiceAPI.RazorAssemblyInfo.cs
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\obj\Debug\netcoreapp2.1\MarketPlaceServiceAPI.AssemblyInfoInputs.cache
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\obj\Debug\netcoreapp2.1\MarketPlaceServiceAPI.AssemblyInfo.cs
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\obj\Debug\netcoreapp2.1\MarketPlaceServiceAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\bin\Debug\netcoreapp2.1\MarketPlaceServiceAPI.pdb
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\obj\Debug\netcoreapp2.1\MarketPlaceServiceAPI.dll
+C:\Users\Dongwan\Desktop\MarketPlaceServiceAPI\MarketPlaceServiceAPI\obj\Debug\netcoreapp2.1\MarketPlaceServiceAPI.pdb

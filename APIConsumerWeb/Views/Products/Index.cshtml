@@ -1,0 +1,44 @@
+﻿@model IEnumerable<APIConsumerWeb.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+    double average = 0.0;
+}
+
+<h2>Product list</h2>
+
+<div class="row">
+    @for (int i = 0; i < Model.Count(); i++)
+    {
+        if (i > 0 && i % 3 == 0)
+        {
+        @:</div><div class="row">
+            <br />
+        }
+
+        <div class="col-sm-4">
+            <div class="card" style="height: 500px">
+                <img class="card-img-top" src="~/images/products/@(Model.ElementAt(i).PictureId)" style="height:200px" />
+                <div class="card-body" style="height: 250px">
+                    <h4 class="card-title">@Model.ElementAt(i).Name</h4>
+
+                    <span class="badge badge-warning">@Model.ElementAt(i).Category.Name</span><br /><br />
+                    <s class="text-danger">CDN$ @Model.ElementAt(i).Price</s><br />
+                    <h5 class="text-danger">
+                        &rarr;
+                        @{
+                            float discounted = (float)(Model.ElementAt(i).Price * (1 - Model.ElementAt(i).Discount.OfferAsPercent));
+                        }
+                        CDN$ @Math.Round(discounted, 2)
+                    </h5>
+                    <h5>Available at <strong>@Model.ElementAt(i).Market.Name</strong></h5>
+                    <a class="btn btn-secondary" href="@Url.Action("Details", "Products", new { id = Model.ElementAt(i).ProductId })">
+                        See Details
+                    </a>&nbsp;&nbsp;
+                    <a href="https://www.google.ca/search?q= @(Model.ElementAt(i).Name)" class="btn btn-primary">Go to website</a>
+
+                </div>
+            </div>
+
+        </div>
+    }
+</div>

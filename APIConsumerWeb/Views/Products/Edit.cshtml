@@ -1,0 +1,41 @@
+﻿@model APIConsumerWeb.Models.Product
+@{
+    ViewData["Title"] = "Edit";
+}
+<h4>Edit Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="ProductId" value="@{new Product();}" hidden="hidden" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control"></input>
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control"></input>
+                <span asp-validation-for="Price" class="text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Category.Name" class="control-label">Category</label>
+                <select asp-for="CategoryId" class="form-control" asp-items="@ViewBag.category"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Market.Name" class="control-label">Provided by</label>
+                <select asp-for="MarketId" class="form-control" asp-items="@ViewBag.Market"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Discount.OfferAsPercent" class="control-label">Discount percent</label>
+                <select asp-for="DiscountId" class="form-control" asp-items="@ViewBag.Discount"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Edit" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
